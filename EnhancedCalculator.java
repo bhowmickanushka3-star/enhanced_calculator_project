@@ -181,10 +181,11 @@ public class EnhancedCalculator {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input! Please enter numbers only.");
-                sc.nextLine(); // clear buffer
+                sc.nextLine(); 
             } catch (ArithmeticException e) {
                 System.out.println("Error: " + e.getMessage());
             }
         }
     }
 }
+
